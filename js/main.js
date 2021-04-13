@@ -260,9 +260,16 @@ class VideoController {
 
   showVideo() {
     this.selectors.videoElement.currentTime = 0;
+   
     this.selectors.videoWrapElement.classList.remove('video-wrap--hide');
     this.selectors.videoWrapElement.classList.add('video-wrap--show');
     setTimeout(() => this.selectors.videoElement.play(), 600);
+	$('.js-video').on('play', function () {
+		debugger
+		$('.js-video').attr('controls', '');
+		$('.js-video').prop('muted', false);
+
+	});
   }
 
   hideVideo() {

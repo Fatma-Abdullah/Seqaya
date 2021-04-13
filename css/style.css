@@ -10720,3 +10720,47 @@ a.nav-link {
 footer.footer {
   padding-bottom: 10px;
 }
+@media (max-width: 576px) {
+  .blog-entry .text .heading {
+    font-size: 13px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.pb-5, .py-5 {
+  padding-bottom: 0rem !important;
+}
+.ftco-section {
+  padding: 1em 0;
+}
+ }
+ .btn-purple {
+  border: 1px solid #652eaa;
+  color: #652eaa;
+  font-size: 15px;
+}
+.causes h2 {
+  font-size: 15px;
+}
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+i.fa.fa-whatsapp {
+    font-size: 31px;
+    margin:0
+}
