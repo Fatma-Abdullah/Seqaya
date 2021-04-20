@@ -10764,3 +10764,13 @@ i.fa.fa-whatsapp {
     font-size: 31px;
     margin:0
 }
+
+.ramadanOffers .causes .img {
+  width: 100%;
+  height: 536px;
+  /* margin: 0 auto; */
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-radius: 50% 0 0 0;
+}
